@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-base64-js/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-base64-js/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-base64-js/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-base64-js/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-base64-js/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-base64-js/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-base64-js/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-base64-js/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-base64-js/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-base64-js/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-base64-js/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-base64-js/build/coverage.html/index.html)
 
@@ -35,24 +35,48 @@
 ```json
 
 {
-    "name": "base64-js",
-    "version": "1.2.0",
-    "description": "Base64 encoding/decoding in pure JS",
-    "keywords": [
-        "base64"
-    ],
-    "homepage": "https://github.com/beatgammit/base64-js",
+    "author": {
+        "name": "T. Jameson Little"
+    },
     "bugs": {
         "url": "https://github.com/beatgammit/base64-js/issues"
     },
-    "license": "MIT",
-    "author": "T. Jameson Little <t.jameson.little@gmail.com>",
+    "dependencies": {},
+    "description": "Base64 encoding/decoding in pure JS",
+    "devDependencies": {
+        "benchmark": "^2.1.0",
+        "browserify": "^13.0.0",
+        "standard": "*",
+        "tape": "4.x",
+        "uglify-js": "^2.6.2"
+    },
+    "directories": {},
+    "dist": {
+        "shasum": "a39992d723584811982be5e290bb6a53d86700f1",
+        "tarball": "https://registry.npmjs.org/base64-js/-/base64-js-1.2.0.tgz"
+    },
     "files": [
         "test",
         "index.js",
         "base64js.min.js"
     ],
+    "gitHead": "18bb7b2f20af653e60ae186bd879d3c4e6e6d8e6",
+    "homepage": "https://github.com/beatgammit/base64-js",
+    "keywords": [
+        "base64"
+    ],
+    "license": "MIT",
     "main": "index.js",
+    "maintainers": [
+        {
+            "name": "beatgammit"
+        },
+        {
+            "name": "feross"
+        }
+    ],
+    "name": "base64-js",
+    "optionalDependencies": {},
     "repository": {
         "type": "git",
         "url": "git://github.com/beatgammit/base64-js.git"
@@ -63,13 +87,8 @@
         "test": "npm run lint && npm run unit",
         "unit": "tape test/*.js"
     },
-    "devDependencies": {
-        "benchmark": "^2.1.0",
-        "browserify": "^13.0.0",
-        "standard": "*",
-        "tape": "4.x",
-        "uglify-js": "^2.6.2"
-    }
+    "version": "1.2.0",
+    "bin": {}
 }
 ```
 
